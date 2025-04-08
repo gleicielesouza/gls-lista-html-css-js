@@ -1,0 +1,41 @@
+body {
+    background-color: lemonchiffon;
+    /*Limão*/
+    margin: 0;
+    padding: 20px;
+    color: crimson;
+    /*Crimson*/
+}
+
+h1 {
+    color: chocolate;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+h2 {
+    color: coral;
+}
+
+h3 {
+    color: darkkhaki;
+}
+
+h4 {
+    color: fuchsia;
+}
+
+h5 {
+    color: hotpink;
+}
+
+h6 {
+    color: orangered;
+}
+
+.classe {
+    display: flex;
+    flex-wrap: wrap;
+    gap:20px;
+    justify-content:space-between;
+}
