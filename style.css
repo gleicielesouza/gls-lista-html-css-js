@@ -1,8 +1,8 @@
 body {
-    background-color: lemonchiffon;
+    background-color:#efa6b7;
     margin: 0;
     padding: 20px;
-    color:black;
+    color:rgb(0, 0, 0);
     text-align: center;
 }
 
@@ -27,10 +27,27 @@ h5{
 
 
 .galeria-item{
-    background-color: #f5f5f5;
+    background-color: #d3395d;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
     padding: 10px;
-
+flex: 1 1 calc(33.33% - 20px);
 text-align: center;
+}
+.galeria-item h4{
+    margin: 10px 0px;
+    color:antiquewhite;
+    font-size: 23px;
+}
+.galeria-item img{
+    height: 200px;
+    width: 200px;
+    border-radius: 8px;
+    margin: 5px;
+    transition: transform 0.3s ease;
+}
+
+.galeria-item img:hover{
+transform: scale(1.45);
+box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
 }
